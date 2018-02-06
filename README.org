@@ -1,0 +1,6 @@
+
+A repository for benchwork protocols.
+
+[[protocols.org]] is the main file. Protocols have versions and update dates in them. If/when they are changed, the old version will be archived to protocols.org_archive for ease of examination.
+
+[[protocols.pdf]] and [[protocols.html]] are exported versions of the main org file. They will not necessarily be current.
