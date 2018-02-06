@@ -1,0 +1,194 @@
+#+TITLE: Colin's protocols
+#+AUTHOR: Colin S. Maxwell
+#+OPTIONS: prop:t
+
+* Phage
+** Buffers and plates
+*** <<smg>> Saline Magnesium Gelatin (SMG)
+    :PROPERTIES:
+    :VERSION:  1.0
+    :UPDATED:  <2018-02-06 Tue>
+    :END:
+
+ Taken from Bacteriophages - Methods and Protocols Vol 1 Chapter 7 cite:kropinski2009enumeration.
+
+ "Saline – magnesium (SM) diluent plus gelatin (SMG) (8): 50mM Tris–HCl
+ (pH 7.5) containing 100mM NaCl, 8. 1 mM MgSO4 and 0.01% (w/v)
+ gelatin."
+
+ | For 0.1L           |      |
+ |--------------------+------|
+ | 1M MgS04           | 1mL  |
+ | 1M Tris-HCl pH 7.5 | 5ml  |
+ | 1% gelatin         | 1ml  |
+ | 1M NaCl            | 10ml |
+ | Sterile H20        | 83ml |
+
+\\
+
+ | For 1L (alternate)  |      |
+ |---------------------+------|
+ | NaCl                | 5.8g |
+ | MgS04 7H20          | 2.0g |
+ | 1M Tris-HCl         | 50ml |
+ | 1% (wt/vol) gelatin | 5ml  |
+ | H20 to 1000ml       |      |
+
+*** <<lambda-media>> Lambda Broth (aka Tryptone Broth), Top agar, plates
+    :PROPERTIES:
+    :VERSION:  1.0
+    :UPDATED:  <2018-02-06 Tue>
+    :END:
+
+From Current Protocols in Molecular Biology "Plating Lambda Phage to Generate Plaques" cite:lech2001, cite:Elbing2001.
+
+For each, autoclave for 15min. For plates, cool to 55C and then pour to ~20ml per plate. For top agar, store in oven at 60C until ready to use. 
+
+| For 1L of *Tryptone Broth* |      |
+|----------------------------+------|
+| Tryptone                   | 10g  |
+| NaCl                       | 2.5g |
+
+\\
+
+| For 125ml *Lambda top agar (0.7%)* |       |
+|------------------------------------+-------|
+| Tryptone                           | 1.25g |
+| NaCl                               | 0.31g |
+| Agar                               | 0.87g |
+
+\\
+
+| For 1L of *Lamda plates* |      |
+|--------------------------+------|
+| Tryptone                 | 10g  |
+| NaCl                     | 2.5g |
+| Agar                     | 15g  |
+
+\\
+
+Lambda adsorbs best when cells are grown in the presence of Maltose and MgS04, so cells are grown in lambda broth + 10mM MgS04 + 0.2% Maltose (λMM).
+
+| *For 30ml of λMM* |       |
+|-------------------+-------|
+| lambda broth      | 30ml  |
+| 20% maltose       | 3ml   |
+| 1M MgS04          | 0.3ml |
+
+*** <<lb-media>> LB Broth, Top Agar, Plates
+    :PROPERTIES:
+    :VERSION:  1.0
+    :UPDATED:  <2018-02-06 Tue>
+    :END:
+
+From Current Protocols in Molecular Biology "Plating Lambda Phage to Generate Plaques" cite:lech2001, cite:Elbing2001, except omitting the NaOH.
+
+For each, autoclave for 15min. For plates, cool to 55C and then pour to ~20ml per plate. For top agar, store in oven at 60C until ready to use. 
+
+| For 1L of *LB broth* |     |
+|----------------------+-----|
+| Tryptone             | 10g |
+| Yeast Extract        | 5g  |
+| NaCl                 | 5g  |
+| Agar                 | 15g |
+
+\\
+
+| For 125ml *Lambda top agar (0.7%)* |       |
+|------------------------------------+-------|
+| Tryptone                           | 1.25g |
+| Yeast Extract                      | 0.62g |
+| NaCl                               | 0.62g |
+| Agar                               | 0.87g |
+
+\\
+
+| For 1L of *Lamda plates* |     |
+|--------------------------+-----|
+| Tryptone                 | 10g |
+| Yeast Extract            | 5g  |
+| NaCl                     | 5g  |
+| Agar                     | 15g |
+
+
+
+
+** Plate counts
+*** <<lambda-count>> Counting Lambda plaques
+    :PROPERTIES:
+    :UPDATED:  <2018-02-06 Tue>
+    :VERSION:  1.0
+    :END:
+
+Taken from Current Protocols in Molecular Biology cite:lech2001, adapted to Burch Lab protocol.
+
+1. Grow culture of /E. coli/ to saturation in [[lambda-media][λMM]] (e.g. overnight or 4h).
+2. Pre-warm [[lambda-media][lambda plates]] to 37C, ensure there's no visible moisture
+   on the plates. Dry if needed.
+3. Pipet 2.5ml of top agar into 5ml glass tubes, incubate at 48C.
+   - Pre-warm the glass tubes before pipeting.
+   - Loosen tube caps while they're warming for ease of handling.
+   - Heat the glass pipet before pipeting.
+   - Ensure the caps are on tightly to prevent cooling.
+4. Make serial dilutions of phage stock in [[smg][SMG]]
+   - Usually 1:100 is used. Plate lysis should give ~1e10pfu/ml, liquid
+      lysis should give 5e9-3e10pfu/ml.
+5. Pipet 0.3ml of /E. coli/ culture into 0.7ml epitubes.
+6. Add 0.1ml of the phage dilutions to the tubes containing the /E. coli/ cells.
+7. Incubate for 20min at room temperature to allow binding.
+8. Move to 37C for 10 minutes to allow injection of DNA.
+9. Add the phage+bacteria to the top agar, vortex gently (setting 3),
+   spread on plate by pouring, then gently swirling.
+10. Make a control plate with bacteria only by adding 0.3ml of
+    bacteria to 2.5ml top agar.
+11. Let the top agar set for 15min at room temperature.
+12. Incubate at 37C for 6-8h for counting, 12h for picking.
+
+*** <<lambda-plate-lysis>> Making lambda stock by plate lysis
+    :PROPERTIES:
+    :VERSION:  1.0
+    :UPDATED:  <2018-02-06 Tue>
+    :END:
+
+Taken from cite:Manfioletti1988wv. 
+
+1. Grow /E. coli/ overnight 30C in [[lambda-media][λMM]]
+2. Spin down at 1000g for 10 minutes, resuspend in 0.5 volumes of 10mM MgS04
+3. Mix 0.3ml of cells with 1000pfu on Lambda. Incubate at 37C for 15min.
+4. Mix with 3ml of [[lambda-media][lambda top agar]] and pour onto [[lambda-media][lambda plate]].
+5. Set the top agar for 15min.
+6. Incubate at 37C for 8-10h until the plaques are confluent.
+7. Add 3ml of of [[smg][SMG]], leave overnight at 4C with gentle rocking.
+8. Collect lysate, add 1/50 volume of chloroform.
+9. Shake and centrifuge for 2 minutes at 5000g.
+10. Store at 4C.
+
+Should get >1e11 pfu.
+
+*** <<t7-count>> Counting T7 plaques
+    :PROPERTIES:
+    :UPDATED:  <2018-02-06 Tue>
+    :VERSION:  1.0
+    :END:
+
+1. Grow culture of /E. coli/ to saturation in [[lb-media][LB]] (e.g. overnight or 4h).
+2. Proceed as with [[lambda-counts][lambda plate counts]], except use LB.
+3. Plaques can be counted after 3-4hr.
+
+*** <<t7-plaque>> Picking a T7 plaque
+    :PROPERTIES:
+    :UPDATED:  <2018-02-06 Tue>
+    :VERSION:  1.0
+    :END:
+
+1. Sterilize a razor blade by spraying it with 70% ETOH and flaming.
+2. Use it to cut a 200µL pipet tip about 1/3 of the way up.
+3. Cut out the plaque using the tip and transfer to 300µL of [[smg][SMG]].
+4. Vortex gently, incubate for 20minutes or overnight at 4C.
+5. Add a few drops of chloroform, shake, centrifuge for 2minutes at 5000xg.
+
+
+* Bibliography
+[[bibliographystyle:apalike]]
+bibliography:protocols.bib
+
