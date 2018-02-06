@@ -172,7 +172,9 @@ Should get >1e11 pfu.
     :END:
 
 1. Grow culture of /E. coli/ to saturation in [[lb-media][LB]] (e.g. overnight or 4h).
-2. Proceed as with [[lambda-counts][lambda plate counts]], except use LB.
+2. Proceed as with [[lambda-counts][lambda plate counts]], except use LB, and don't
+   pre-adsorb to the bacteria. Just add the phage and the bacteria to
+   the top agar and go.
 3. Plaques can be counted after 3-4hr.
 
 *** <<t7-plaque>> Picking a T7 plaque
