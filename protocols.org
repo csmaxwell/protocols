@@ -116,29 +116,31 @@ For each, autoclave for 15min. For plates, cool to 55C and then pour to ~20ml pe
 ** Plate counts
 *** <<lambda-count>> Counting Lambda plaques
     :PROPERTIES:
-    :UPDATED:  <2018-02-06 Tue>
-    :VERSION:  1.0
+    :UPDATED:  <2018-02-13 Tue>
+    :VERSION:  1.1
     :END:
 
 Taken from Current Protocols in Molecular Biology cite:lech2001, adapted to Burch Lab protocol.
 
 1. Grow culture of /E. coli/ to saturation in [[lambda-media][λMM]] (e.g. overnight or 4h).
-2. Pre-warm [[lambda-media][lambda plates]] to 37C, ensure there's no visible moisture
-   on the plates. Dry if needed.
+2. Pre-warm [[lambda-media][lambda plates]] to room temperature.
 3. Pipet 2.5ml of top agar into 5ml glass tubes, incubate at 48C.
    - Pre-warm the glass tubes before pipeting.
    - Loosen tube caps while they're warming for ease of handling.
    - Heat the glass pipet before pipeting.
    - Ensure the caps are on tightly to prevent cooling.
 4. Make serial dilutions of phage stock in [[smg][SMG]]
-   - Usually 1:100 is used. Plate lysis should give ~1e10pfu/ml, liquid
-      lysis should give 5e9-3e10pfu/ml.
+   - Dilutions should be 30 µL into 300 µL (e.g. 1:10)
+   - Plate lysis should give ~1e10pfu/ml, liquid lysis should give
+     5e9-3e10pfu/ml.
 5. Pipet 0.3ml of /E. coli/ culture into 0.7ml epitubes.
 6. Add 0.1ml of the phage dilutions to the tubes containing the /E. coli/ cells.
 7. Incubate for 20min at room temperature to allow binding.
 8. Move to 37C for 10 minutes to allow injection of DNA.
-9. Add the phage+bacteria to the top agar, vortex gently (setting 3),
+9. Add the phage+bacteria to the top agar, rub between hands,
    spread on plate by pouring, then gently swirling.
+   - Note: For accurate count, rock top agar over to the side and add
+     the cells + phage directly to the top agar
 10. Make a control plate with bacteria only by adding 0.3ml of
     bacteria to 2.5ml top agar.
 11. Let the top agar set for 15min at room temperature.
@@ -167,15 +169,24 @@ Should get >1e11 pfu.
 
 *** <<t7-count>> Counting T7 plaques
     :PROPERTIES:
-    :UPDATED:  <2018-02-06 Tue>
-    :VERSION:  1.0
+    :UPDATED:  <2018-02-13 Tue>
+    :VERSION:  1.1
     :END:
 
-1. Grow culture of /E. coli/ to saturation in [[lb-media][LB]] (e.g. overnight or 4h).
-2. Proceed as with [[lambda-counts][lambda plate counts]], except use LB, and don't
-   pre-adsorb to the bacteria. Just add the phage and the bacteria to
-   the top agar and go.
-3. Plaques can be counted after 3-4hr.
+1. Grow culture of /E. coli/ overnight to saturation in [[lb-media][LB]].
+2. Pre-warm [[lb-media][LB]] plates to room temperature.
+3. Pipet 2.5ml of top agar into 5ml glass tubes, indubate at 48C in
+   heat block.
+   - See tips in [[lambda-count][lambda plate counts]] for how to handle top agar
+4. Make serial dilutions of phage stock in [[smg][SMG]]. 
+   - Dilutions should be 30 µL into 300 µL (e.g. 1:10)
+5. Add 0.1ml of bacteria to top agar
+6. Add 0.1ml of phage to top agar by tilting to enable direct
+   pipetting into the top agar.
+7. Twirl between hands, plate by swirling.
+8. Let the top agar set for 15min at RT.
+9. Plaques can be counted after 3-4hr or left at RT overnight and
+   counted in the morning.
 
 *** <<t7-plaque>> Picking a T7 plaque
     :PROPERTIES:
