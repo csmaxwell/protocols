@@ -201,6 +201,19 @@ Should get >1e11 pfu.
 5. Add a few drops of chloroform, shake, centrifuge for 2minutes at 5000xg.
 
 
+* General
+** Autoclaving
+*** <<autoclaving-tips>> Autoclaving tips
+    :PROPERTIES:
+    :VERSION:  1.0
+    :UPDATED:  <2018-02-14 Wed>
+    :END:
+
+1. Load tips into tip containters
+2. Put autoclave tape on each
+3. Use the "Prevac cycle"
+
+
 * Bibliography
 [[bibliographystyle:apalike]]
 bibliography:protocols.bib
