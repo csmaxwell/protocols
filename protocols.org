@@ -200,6 +200,64 @@ Should get >1e11 pfu.
 4. Vortex gently, incubate for 20minutes or overnight at 4C.
 5. Add a few drops of chloroform, shake, centrifuge for 2minutes at 5000xg.
 
+*** <<t7-spot>> Spot-counting T7 plaques
+    :PROPERTIES:
+    :VERSION:  1.1
+    :UPDATED:  <2018-02-16 Fri>
+    :END:
+
+1. Prepare overnight culture of /E. coli/, prepare LB top agar and LB
+   plates. Prewarm LB plate to room temperature.
+2. Add 0.2ml of /E. coli/ culture to 2.5ml of top agar, spread on plate.
+3. Let sit at room temperature for 15 min
+4. Pipet on phage dilutions at 20 uL.
+5. Dry with lid off in 37C for 20 min.
+6. Replace lid, incubate at 37C. Phage are ready to count after ~2.5h.
+
+*** <<t7-one-step>> T7 one-step assay
+    :PROPERTIES:
+    :VERSION:  1.0
+    :UPDATED:  <2018-03-12 Mon>
+    :END:
+The goal of this is to determine the lysis time and burst size of T7. 
+
+1) The night before, make 12ml of saturated E. coli (e.g. BL21).
+2) Put 50ml of LB into another baffled flask and shake at 37C.
+3) Prepare ~25 top agar tubes
+4) Warm ~25 plates of LB to room temperature
+5) Prepare 3 1.5ml epi tubes with a small amount of chlor
+6) Set a heat block to 37C
+7) Back-dilute 200-300uL of saturated culture into a 50ml baffled
+   flask with 10ml LB. Put in the shaker at 200rpm at 37C until cells
+   reach an OD of 0.125 ~ 1e8 cells.
+8) Add ~1e7 phage (MOI of 0.1) directly to the flask with the cells, put them back shaking at 37C.
+9) Start timer
+10) While the phage are binding, make aliquots of LB into 15ml falcon tubes and place them on the 37C heat block:
+    1) 9ml (for the 1e1 culture)
+    2) 9.9ml (for the 1e-3 culture)
+    3) 9ml (for the 1e-4 culture)
+    4) 9ml (for the 1e-5 culture)
+11) After 5 minutes, make the following dilutions:
+    1) 1ml cells + 9ml pre-warmed LB
+    2) 100ul of cells from (2) into 9.9ml LB -> -3
+    3) 1ml of cells from (3) into 9ml LB -> -4
+    4) 1ml of cells from (4) into 9ml LB -> -5
+12) Immediately take 1ml x3 of the 1e3 culture and put it in each of the tubes with chloroform. Vortex briefly. This should be before 6:30 on the timer.
+13) Collect samples as quickly as possible:
+
+| Dilution | Time                           |
+|----------+--------------------------------|
+| -3       | Before 11 minutes              |
+| -3/-4    | From 11-13 minutes             |
+| -4/-5    | From 13-16 minutes             |
+| -5       | From 16 minutes to ~22 minutes |
+
+14) Plate 250-500 ul of the chloroform samples
+15) Grow all plates 3h at 37C, then count.
+
+*** Adsorption assay
+
+1) Innoculate
 
 ** Storage
 *** <<phage-storage>> Glycerol stocks of phage
