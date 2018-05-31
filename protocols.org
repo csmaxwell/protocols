@@ -34,6 +34,7 @@
  | 1% (wt/vol) gelatin | 5ml  |
  | H20 to 1000ml       |      |
 
+#+LATEX: \clearpage
 *** <<lambda-media>> Lambda Broth (aka Tryptone Broth), Top agar, plates
     :PROPERTIES:
     :VERSION:  1.0
@@ -75,6 +76,8 @@ Lambda adsorbs best when cells are grown in the presence of Maltose and MgS04, s
 | 20% maltose       | 3ml   |
 | 1M MgS04          | 0.3ml |
 
+#+LATEX: \clearpage
+
 *** <<lb-media>> LB Broth, Top Agar, Plates
     :PROPERTIES:
     :VERSION:  1.2
@@ -111,7 +114,7 @@ For each, autoclave for 15min. For plates, cool to 55C and then pour to ~20ml pe
 | Agar                     | 15g |
 
 
-
+#+LATEX: \clearpage
 
 ** Plate counts
 *** <<lambda-count>> Counting Lambda plaques
@@ -145,6 +148,7 @@ Taken from Current Protocols in Molecular Biology cite:lech2001, adapted to Burc
     bacteria to 2.5ml top agar.
 11. Let the top agar set for 15min at room temperature.
 12. Incubate at 37C for 6-8h for counting, 12h for picking.
+#+LATEX: \clearpage
 
 *** <<lambda-plate-lysis>> Making lambda stock by plate lysis
     :PROPERTIES:
@@ -166,6 +170,7 @@ Taken from cite:Manfioletti1988wv.
 10. Store at 4C.
 
 Should get >1e11 pfu.
+#+LATEX: \clearpage
 
 *** <<t7-count>> Counting T7 plaques
     :PROPERTIES:
@@ -187,6 +192,7 @@ Should get >1e11 pfu.
 8. Let the top agar set for 15min at RT.
 9. Plaques can be counted after 3-4hr or left at RT overnight and
    counted in the morning.
+#+LATEX: \clearpage
 
 *** <<t7-plaque>> Picking a T7 plaque
     :PROPERTIES:
@@ -199,6 +205,7 @@ Should get >1e11 pfu.
 3. Cut out the plaque using the tip and transfer to 300µL of [[smg][SMG]].
 4. Vortex gently, incubate for 20minutes or overnight at 4C.
 5. Add a few drops of chloroform, shake, centrifuge for 2minutes at 5000xg.
+#+LATEX: \clearpage
 
 *** <<t7-spot>> Spot-counting T7 plaques
     :PROPERTIES:
@@ -213,6 +220,7 @@ Should get >1e11 pfu.
 4. Pipet on phage dilutions at 20 uL.
 5. Dry with lid off in 37C for 20 min.
 6. Replace lid, incubate at 37C. Phage are ready to count after ~2.5h.
+#+LATEX: \clearpage
 
 *** <<t7-one-step>> T7 one-step assay
     :PROPERTIES:
@@ -254,8 +262,32 @@ The goal of this is to determine the lysis time and burst size of T7.
 
 14) Plate 250-500 ul of the chloroform samples
 15) Grow all plates 3h at 37C, then count.
+#+LATEX: \clearpage
 
-*** Adsorption assay
+*** <<t7-96-well>> T7 plaque assay using 96-well plate
+
+This protocol assumes that you will assay 12 samples at -6, -7, and -8 dilution. Adjust accordingly if a different number of samples will by assayed.
+
+Pipet 270ul of SMG into each well of a 96 well plate.
+
+
+- Add 30 µl of samples to first row of the plate.Use the pipet to mix the sample (15-20 plunges up and down), then discard tips.
+- Serially dilute plate by taking 30µl from row A and mixing with row
+  B. Mix 15-20 times, and change pipet tips when done mixing. Repeat
+  with B→C, C→D, etc
+- Pipet 50µl of bacteria into a separate 96 well plate using rows A,
+  B, and C for dilutions -6, -7, and -8 respectively.
+- For each dilution mix 50µl of phage from the firstplate, with the
+  50µl of bacteria on the second plate
+- Using 6 pipet tips, pipet 10µl of the mix of bacteria and phage onto
+  an agar plate. This should be done in duplicate. Tilt the agar plate
+  to spread the mixture.
+- Place finished agar plates in the incubator at 37C, moving the top
+  of each plate to the side to let the plate dry for 5 minutes. After
+  5 minutes place the top of the plate back on.
+- Incubate for 4h, then count the plaques.
+
+*** COMMENT Adsorption assay
 
 - Day 1
 
